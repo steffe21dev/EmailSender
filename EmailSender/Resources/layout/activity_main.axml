@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation = "vertical"
+	>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:hint ="Mottagare"
+		android:layout_marginTop = "32dp"
+		android:id="@+id/mottagare" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint = "Ämne"
+		android:layout_marginTop = "32dp"
+		android:id="@+id/ämne" />
+	<EditText
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:layout_height="199.5dp"
+		android:layout_marginTop = "32dp"
+		android:hint = "Meddelande"
+		android:id="@+id/meddelande" />
+	<Button
+		android:text="Skicka"
+		android:layout_width="match_parent"
+		android:layout_marginTop = "64dp"
+		android:paddingVertical = "16dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/sendbutton"
+		android:layout_marginBottom="15.0dp" />
+</LayoutLayout>
